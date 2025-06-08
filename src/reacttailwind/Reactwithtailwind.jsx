@@ -170,7 +170,7 @@ export default function Reactwithtailwind() {
       <div className="flex justify-center mb-9">
         <Carding
           location="index.css"
-          codeinwhite1="@import “tailwindcss”;"
+          codeinwhite1='@import "tailwindcss";'
           codeinwhite2=""
           codeinwhite3=""
           codeingreen=""
