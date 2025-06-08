@@ -1,8 +1,9 @@
 import React from 'react'
 import HeroBanner from '../HOME/HeroBanner'
-import Features_copy_1 from '../components/Features_copy_1'
-import Features_copy_2 from '../components/Features_copy_2'
-import Features_copy_3 from '../components/Features_copy_3'
+import Features_copy_1 from '../HOME/Features_copy_1'
+import Features_copy_2 from '../HOME/Features_copy_2'
+import Features_copy_3 from '../HOME/Features_copy_3'
+
 
 function Home() {
   return (

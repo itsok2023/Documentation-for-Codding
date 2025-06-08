@@ -2,19 +2,23 @@ import React from 'react';
 
 const Listcards = () => {
   return (
-    <div className="h-[11em] w-auto border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex justify-center content-center items-center flex-col-2 gap-[0.75em] backdrop-blur-[12px] md:h-[9em] md:gap-50 ">
+    <div className="h-[11em] w-full border-2 border-[rgba(0,0,0,0.92)] rounded-[1.5em] bg-stone-300   text-stone-800 font-nunito p-[1em] flex justify-center content-center items-center flex-col-2 gap-[0.75em] backdrop-blur-[12px] md:h-[9em]  ">
+      <div className='flex grid-cols-2  gap-x-0 md:ml-0 '>
       <div>
-        <h1 className="text-[1.5em] font-medium">1. ReactJs with TailwindCSS</h1>
-        <p className="text-[0.85em]">
-          - In this Initializing ReactJs Project with tailwind CSS and After this ready to start your project.
+        <h1 className="text-[1.5em] font-medium">1. ReactJS + TailwindCSS:</h1>
+        <p className="text-[0.85em] ">
+          - Set up your ReactJS project using TailwindCSS and launch faster.
         </p>
       </div>
-      <button className="text-black hover:bg-yellow-700 hover:text-white my-auto h-fit w-fit px-[1em] py-[0.25em] border-[1px] rounded-full flex justify-center items-center gap-[0.em] overflow-hidden group hover:translate-y-[0.125em] duration-200 backdrop-blur-[12px]">
+      <div>
+      <button className="text-white bg-blue-900 hover:bg-blue-600 hover:text-white my-auto h-fit w-fit px-[1em] py-[0.25em] border-[1px]  place-content-center lg:mr-10 rounded-full flex justify-center items-center gap-[1.em] overflow-hidden group hover:translate-y-[0.125em] duration-200 backdrop-blur-[12px] md:translate-x-10">
         <a href='/reactwithtailwind'>Start</a>
         <svg className="w-6 h-6 group-hover:translate-x-[10%] duration-300" stroke="currentColor" strokeWidth={1} viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" strokeLinejoin="round" strokeLinecap="round" />
         </svg>
       </button>
+      </div>
+      </div>
     </div>
   );
 }

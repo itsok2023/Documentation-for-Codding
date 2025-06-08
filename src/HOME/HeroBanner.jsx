@@ -8,7 +8,7 @@ export default function HeroBanner() {
   const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + 3) % 3);
 
   return (
-    <section className=" relative bg-yellow-700 text-white py-40 px-10 flex items-center justify-center mt-15">
+    <section className=" relative bg-stone-300 text-white py-40 px-10 flex items-center justify-center mt-15">
       {/* Left Button */}
       {/* <button 
         onClick={prevSlide} 
@@ -19,11 +19,11 @@ export default function HeroBanner() {
 
       {/* Content */}
       <div className="max-w-5xl text-center">
-        <h1 className="text-5xl font-bold max-md:text-4xl">DOCUMENTATION</h1>
-        <p className="mt-4 text-gray-400 max-md:text-1xl max-md:w-80 mx-auto ">
-          Documentstion for codders, Fast and easy intialize with us.
+        <h1 className="text-5xl text-stone-700 font-bold max-md:text-4xl pb-5">DOCUMENTATION</h1>
+        <p className="mt-4 text-gray-500 max-md:text-1xl max-md:w-80 mx-auto ">
+          The ultimate docs for coders — start your project in seconds.
         </p>
-        <button className="mt-6 bg-blue-900 hover:bg-blue-600 px-6 py-2 rounded font-semibold" >
+        <button className="mt-6 bg-blue-900 hover:bg-blue-600 transition duration-200 px-6 py-2 rounded font-semibold" >
           <a href="/getting">Explore Docs</a>
         </button>
       </div>

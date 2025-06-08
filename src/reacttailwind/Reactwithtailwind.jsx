@@ -2,13 +2,13 @@ import Carding from "../components/Carding";
 
 export default function Reactwithtailwind() {
   return (
-    <div className="mt-20">
+    <div className="pt-20 bg-stone-300">
       <div className="text-3xl font-bold underline text-wrap flex justify-center m-2 mt-5 mb-5 ">
-        Reactjs Project creating with Tailwind CSS
+        ReactJS + TailwindCSS:
       </div>
 
       {/* This is first Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 1 : - Install Node.js
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -30,13 +30,21 @@ export default function Reactwithtailwind() {
         <Carding
           location="terminal"
           codeinwhite1="node -v"
+          codeinwhite2=""
+          codeingreen=""
+        ></Carding>
+      </div>
+      <div className="flex justify-center mb-9">
+        <Carding
+          location="terminal"
+          codeinwhite1=""
           codeinwhite2="npm -v"
           codeingreen=""
         ></Carding>
       </div>
 
       {/* This is second Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 2 : - Create Project Folder
       </div>
       <div className="font-serif text-md mb-9 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -51,7 +59,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Third Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 3 : - Create a React Project using Vite
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -71,7 +79,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Fourth Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 4 : - Project Name
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -90,7 +98,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is fifth Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 5 : - Navigate into the project folder
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -108,7 +116,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Sixth Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 6 : - Install Tailwind CSS
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -129,7 +137,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Seventh Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 7 : - Configure Tailwind in vite.config.js
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -151,7 +159,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is eight Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 8 : - Configure Tailwind in index.css
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -170,7 +178,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Ninth Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 9 : - Run the Development Server
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -190,7 +198,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Tenth Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 10 : - ReactJs with Tailwind CSS running Properly
       </div>
       <div className="font-serif text-md mb-9 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -198,7 +206,7 @@ export default function Reactwithtailwind() {
       </div>
 
       {/* This is Eleventh Step */}
-      <div className="font-serif font-bold  mb-3 text-lg ml-9 md:ml-43">
+      <div className="font-serif text-lg mb-3 text-justify ml-9 mr-9 font-bold md:ml-43">
         Step 11 : - If Tailwind is Not Working – Fix by Editing index.html
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
@@ -208,7 +216,7 @@ export default function Reactwithtailwind() {
         delete all existing code, and replace it with the following: <br />-
         type code,
       </div>
-      <div className="flex justify-center mb-9">
+      <div className="flex justify-center pb-9">
         <Carding
           location="index.html"
           codeinwhite1="<!doctype html>"

@@ -4,7 +4,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900 text-white px-6 py-4 shadow-md fixed top-0 w-full z-10">
+    <header className="bg-gray-800 text-white px-6 py-4 shadow-md fixed top-0 w-full z-10">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <h1 className="text-2xl font-bold">OK DOCS MASTER</h1>
