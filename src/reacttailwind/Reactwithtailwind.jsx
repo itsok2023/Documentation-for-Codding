@@ -4,7 +4,7 @@ export default function Reactwithtailwind() {
   return (
     <div className="pt-20 bg-stone-300">
       <div className="text-3xl font-bold underline text-wrap flex justify-center m-2 mt-5 mb-5 ">
-        ReactJS + TailwindCSS:
+        ReactJS + TailwindCSS:-
       </div>
 
       {/* This is first Step */}
