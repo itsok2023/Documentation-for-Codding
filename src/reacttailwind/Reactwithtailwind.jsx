@@ -83,7 +83,7 @@ export default function Reactwithtailwind() {
         Step 4 : - Project Name
       </div>
       <div className="font-serif text-md mb-3 text-justify ml-9 mr-9 md:ml-43 md:mr-43">
-        - follow the on-screen prompts: <br />
+        - Follow the on-screen prompts: <br />
         - Give project name:-
         <br /> - Select a framework:- <br />- Select a variant:-
       </div>
@@ -108,7 +108,7 @@ export default function Reactwithtailwind() {
       <div className="flex justify-center mb-9">
         <Carding
           location="VS code terminal"
-          codeinwhite1="cd vite-project"
+          codeinwhite1="cd (Project Name)"
           codeinwhite2=""
           codeinwhite3=""
           codeingreen=""

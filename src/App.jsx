@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Footer from "./components/Footer";
 import Getting from "./pages/Getting";
 import Reactwithtailwind from "./reacttailwind/reactwithtailwind";
+import Nextwithtailwind from "./nexttailwind/Nextwithtailwind";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/about" element={<About/>}></Route>
         <Route path="/getting" element={<Getting/>}></Route>
         <Route path="/reactwithtailwind" element={<Reactwithtailwind />}></Route>
+        <Route path="/nextwithtailwind" element={<Nextwithtailwind />}></Route>
         
       </Routes>
       <Footer></Footer>
